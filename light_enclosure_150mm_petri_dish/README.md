@@ -26,7 +26,7 @@ All parts were designed in Autodesk Inventor 2026.
 
 |------|-------------|
 
-| `light\_enclosure\_150mm\_petri\_dish\_bottom.step` | Autodesk Inventor source file — base part |
+| `light\_enclosure\_150mm\_petri\_dish\_bottom.ipt` | Autodesk Inventor source file — base part |
 
 | `light\_enclosure\_150mm\_petri\_dish\_bottom.step` | Universal CAD interchange format — base part |
 
