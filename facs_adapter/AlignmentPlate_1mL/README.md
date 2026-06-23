@@ -1,4 +1,4 @@
-\# FACS Alignment Plate
+# FACS Alignment Plate
 
 
 
@@ -6,67 +6,58 @@ A laser-cut acrylic calibration plate for aligning the sort position of a FACS i
 
 
 
-\---
+---
 
 
 
-\## Files
+## Files
 
 
 
 | File | Description |
-
 |------|-------------|
-
-| `alignment\_plate.dwg` | 2D vector file  |
-
-| `alignment\_plate.ipt` | 3D reference file showing thickness and mounting geometry |
-
-| `technical\_drawing.pdf` | Dimensioned drawing |
-
-| `technical\_drawing.ai` | Dimensioned drawing |
-
-| `technical\_drawing.rld` | manufacturing file |
+| `alignment_plate.dwg` | 2D vector file  |
+| `alignment_plate.ipt` | 3D reference file showing thickness and mounting geometry |
+| `technical_drawing.pdf` | Dimensioned drawing |
+| `technical_drawing.ai` | Dimensioned drawing |
+| `technical_drawing.rld` | manufacturing file |
 
 
 
-\---
+---
 
 
 
-\## Fabrication
+## Fabrication
 
 
 
-\### Method
+### Method
 
 CO₂ laser cutter (Time Technology tt-900, 120W Laser)
 
 
 
-\### Material
+### Material
 
-\*\*Clear acrylic sheet, 4 mm thickness\*\*
+**Clear acrylic sheet, 4 mm thickness**
 
 
 
-\### Laser Settings
+### Laser Settings
 
 | Operation | Power | Speed | 
-
 |-----------|-----------|--------------------------|
-
 | Cut (outer profile) and center ring | 65% | 15 mm/s |
-
 | Engrave (concentric rings) | 30% | 500 mm/s |
 
 
 
-\---
+---
 
 
 
-\## Citation
+## Citation
 
 
 
@@ -77,7 +68,6 @@ If you use this design, please cite:
 ```
 
 Neuhaus, K. (2026). Novel microscopy-based approaches to study bacterial communities.
-
 PhD thesis, Philipps-Universität Marburg.
 
 ```
