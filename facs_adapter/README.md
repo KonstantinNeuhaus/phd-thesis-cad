@@ -1,4 +1,4 @@
-\# FACS Adapters for Petri Dishes
+# FACS Adapters for Petri Dishes
 
 
 
@@ -10,10 +10,10 @@ All adapters were designed by Konstantin Neuhaus as part of a PhD project at the
 
 
 
-\---
+---
 
 
-\## Variants Overview
+## Variants Overview
 
 
 
@@ -21,27 +21,27 @@ All adapters were designed by Konstantin Neuhaus as part of a PhD project at the
 
 |-----------|-----------|----------|----------------------------------|----------------|
 
-| `adapter\_1mL\_petri/` | 16 mm diameter custom dish | 6 dishes | — (custom dish, see `petri\_dish\_1mL/`) | ✓ |
+| `adapter_1mL_petri/` | 16 mm diameter custom dish | 6 dishes | — (custom dish, see `petri_dish_1mL/`) | ✓ |
 
-| `adapter\_35mm/` | 35 mm | 6 dishes | 82.1135.500 | — |
+| `adapter_35mm/` | 35 mm | 6 dishes | 82.1135.500 | — |
 
-| `adapter\_60mm/` | 60 mm | 2 dishes | 82.1194.500 | — |
+| `adapter_60mm/` | 60 mm | 2 dishes | 82.1194.500 | — |
 
-| `adapter\_90mm/` | 90 mm | 1 dish | 82.1472.001 | — |
+| `adapter_90mm/` | 90 mm | 1 dish | 82.1472.001 | — |
 
-| `alignment\_plate/` | — | — | — | ✓ |
-
-
-
-> \*\*Note:\*\* The 35 mm, 60 mm, and 90 mm adapters were designed for Sarstedt standard Petri dishes. They may fit dishes from other vendors but slight dimensional differences between manufacturers mean fit is not guaranteed.
+| `alignment_plate/` | — | — | — | ✓ |
 
 
 
-\---
+> **Note:** The 35 mm, 60 mm, and 90 mm adapters were designed for Sarstedt standard Petri dishes. They may fit dishes from other vendors but slight dimensional differences between manufacturers mean fit is not guaranteed.
 
 
 
-\## General Design
+---
+
+
+
+## General Design
 
 
 
@@ -53,27 +53,27 @@ All parts were designed in Autodesk Inventor 2026.
 
 
 
-\---
+---
 
 
 
-\## Fabrication
+## Fabrication
 
 
 
-\### Printer
+### Printer
 
 Bambu Lab X1-Carbon FDM printer
 
 
 
-\### Material
+### Material
 
-\*\*PLA filament\*\* (Bambu Lab PLA Basic)
+**PLA filament** (Bambu Lab PLA Basic)
 
 
 
-\### Print Settings
+### Print Settings
 
 | Parameter | Value |
 
@@ -87,29 +87,29 @@ Bambu Lab X1-Carbon FDM printer
 
 
 
-\---
+---
 
 
 
-\## Alignment Plate
+## Alignment Plate
 
 
 
-The `alignment\_plate/` subfolder contains a laser-cut acrylic calibration plate. This plate mounts onto any of the adapters in place of the Petri dishes and features engraved concentric rings at each dish position, making sort drop landing positions visible during stage calibration.
+The `alignment_plate/` subfolder contains a laser-cut acrylic calibration plate. This plate mounts onto any of the adapters in place of the Petri dishes and features engraved concentric rings at each dish position, making sort drop landing positions visible during stage calibration.
 
 
 
-\*\*Calibration procedure:\*\*
+**Calibration procedure:**
 
-1\. Mount the alignment plate onto the adapter
+1. Mount the alignment plate onto the adapter
 
-2\. Place the adapter on the FACS stage
+2. Place the adapter on the FACS stage
 
-3\. Sort a small number of events and observe where the drops land relative to the engraved rings
+3. Sort a small number of events and observe where the drops land relative to the engraved rings
 
-4\. Adjust the sort position until drops land at the centre ring of each position
+4. Adjust the sort position until drops land at the centre ring of each position
 
-5\. Remove the alignment plate, insert Petri dishes, and begin sorting
+5. Remove the alignment plate, insert Petri dishes, and begin sorting
 
 
 
@@ -117,87 +117,87 @@ Calibration should be performed at the start of each sort session as the stage p
 
 
 
-See `alignment\_plate/README.md` for fabrication details.
+See `alignment_plate/README.md` for fabrication details.
 
 
 
-\---
+---
 
 
 
 
 
-\## File Structure
+## File Structure
 
 
 
 ```
 
-facs\_adapters/
+facs_adapters/
 
 ├── README.md                        
 
 │
 
-├── adapter\_1mL\_petri/
+├── adapter_1mL_petri/
 
-│   ├── facs\_adapter\_1mL.ipt
+│   ├── facs_adapter_1mL.ipt
 
-│   ├── facs\_adapter\_1mL.step
+│   ├── facs_adapter_1mL.step
 
-│   ├── facs\_adapter\_1mL.stl
+│   ├── facs_adapter_1mL.stl
 
-│   └── technical\_drawing.pdf
-
-│
-
-├── adapter\_35mm/
-
-│   ├── facs\_adapter\_35mm.ipt
-
-│   ├── facs\_adapter\_35mm.step
-
-│   └── facs\_adapter\_35mm.stl
+│   └── technical_drawing.pdf
 
 │
 
-├── adapter\_60mm/
+├── adapter_35mm/
 
-│   ├── facs\_adapter\_60mm.ipt
+│   ├── facs_adapter_35mm.ipt
 
-│   ├── facs\_adapter\_60mm.step
+│   ├── facs_adapter_35mm.step
 
-│   └── facs\_adapter\_60mm.stl
-
-│
-
-├── adapter\_90mm/
-
-│   ├── facs\_adapter\_90mm.ipt
-
-│   ├── facs\_adapter\_90mm.step
-
-│   └── facs\_adapter\_90mm.stl
+│   └── facs_adapter_35mm.stl
 
 │
 
-└── alignment\_plate/
+├── adapter_60mm/
 
-&#x20;   ├── alignment\_plate.dxf
+│   ├── facs_adapter_60mm.ipt
 
-&#x20;   ├── alignment\_plate.step
+│   ├── facs_adapter_60mm.step
 
-&#x20;   └── technical\_drawing.pdf
+│   └── facs_adapter_60mm.stl
+
+│
+
+├── adapter_90mm/
+
+│   ├── facs_adapter_90mm.ipt
+
+│   ├── facs_adapter_90mm.step
+
+│   └── facs_adapter_90mm.stl
+
+│
+
+└── alignment_plate/
+
+&#x20;   ├── alignment_plate.dxf
+
+&#x20;   ├── alignment_plate.step
+
+&#x20;   └── technical_drawing.pdf
 
 ```
 
 
 
-\---
+---
 
 
 
-\## Citation
+## Citation
 
 
 
