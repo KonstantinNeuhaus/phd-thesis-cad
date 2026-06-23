@@ -1,35 +1,24 @@
 # FACS Adapters for Petri Dishes
 
-
-
 A collection of adapter plates that hold standard round Petri dishes in the ANSI/SLAS microplate footprint, enabling single-cell sorting directly onto agar plates using by FACS. Without an adapter, round Petri dishes cannot be placed on the FACS stage in a reproducible position.
-
 
 
 All adapters were designed by Konstantin Neuhaus as part of a PhD project at the Philipps-Universität Marburg and the Biozentrum, University of Basel. The 1 mL custom Petri dish adapter was used in the associated thesis. The 35 mm, 60 mm, and 90 mm adapters were designed for general use in the FACS facility and are included here for completeness.
 
 
-
 ---
-
 
 ## Variants Overview
 
 
 
-| Subfolder | Dish size | Capacity | Dish catalogue number (Sarstedt) | Used in thesis |
-
-|-----------|-----------|----------|----------------------------------|----------------|
-
-| `adapter_1mL_petri/` | 16 mm diameter custom dish | 6 dishes | — (custom dish, see `petri_dish_1mL/`) | ✓ |
-
-| `adapter_35mm/` | 35 mm | 6 dishes | 82.1135.500 | — |
-
-| `adapter_60mm/` | 60 mm | 2 dishes | 82.1194.500 | — |
-
-| `adapter_90mm/` | 90 mm | 1 dish | 82.1472.001 | — |
-
-| `alignment_plate/` | — | — | — | ✓ |
+| Subfolder | Dish size | Capacity | Dish catalogue number (Sarstedt) |
+| ------------- | ------------- | ------------- | ------------- |
+| `adapter_1mL_petri/` | 16 mm diameter custom dish | 6 dishes | — (custom dish, see `petri_dish_1mL/`) | 
+| `adapter_35mm/` | 35 mm | 6 dishes | 82.1135.500 | 
+| `adapter_60mm/` | 60 mm | 2 dishes | 82.1194.500 | 
+| `adapter_90mm/` | 90 mm | 1 dish | 82.1472.001 |
+| `alignment_plate/` | — | — | — |
 
 
 
@@ -75,16 +64,12 @@ Bambu Lab X1-Carbon FDM printer
 
 ### Print Settings
 
-| Parameter | Value |
 
+|Parameter | Value |
 |-----------|-------|
-
 | Layer height | 0.2mm |
-
 | Infill | 15% |
-
 | Print orientation | Flat (base down) for best dimensional accuracy |
-
 
 
 ---
@@ -102,13 +87,9 @@ The `alignment_plate/` subfolder contains a laser-cut acrylic calibration plate.
 **Calibration procedure:**
 
 1. Mount the alignment plate onto the adapter
-
 2. Place the adapter on the FACS stage
-
 3. Sort a small number of events and observe where the drops land relative to the engraved rings
-
 4. Adjust the sort position until drops land at the centre ring of each position
-
 5. Remove the alignment plate, insert Petri dishes, and begin sorting
 
 
@@ -116,80 +97,9 @@ The `alignment_plate/` subfolder contains a laser-cut acrylic calibration plate.
 Calibration should be performed at the start of each sort session as the stage position can shift between sessions.
 
 
-
 See `alignment_plate/README.md` for fabrication details.
 
 
-
----
-
-
-
-
-
-## File Structure
-
-
-
-```
-
-facs_adapters/
-
-├── README.md                        
-
-│
-
-├── adapter_1mL_petri/
-
-│   ├── facs_adapter_1mL.ipt
-
-│   ├── facs_adapter_1mL.step
-
-│   ├── facs_adapter_1mL.stl
-
-│   └── technical_drawing.pdf
-
-│
-
-├── adapter_35mm/
-
-│   ├── facs_adapter_35mm.ipt
-
-│   ├── facs_adapter_35mm.step
-
-│   └── facs_adapter_35mm.stl
-
-│
-
-├── adapter_60mm/
-
-│   ├── facs_adapter_60mm.ipt
-
-│   ├── facs_adapter_60mm.step
-
-│   └── facs_adapter_60mm.stl
-
-│
-
-├── adapter_90mm/
-
-│   ├── facs_adapter_90mm.ipt
-
-│   ├── facs_adapter_90mm.step
-
-│   └── facs_adapter_90mm.stl
-
-│
-
-└── alignment_plate/
-
-&#x20;   ├── alignment_plate.dxf
-
-&#x20;   ├── alignment_plate.step
-
-&#x20;   └── technical_drawing.pdf
-
-```
 
 
 
