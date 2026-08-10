@@ -19,8 +19,10 @@ International License (CC BY-NC-ND 4.0)**.
 You are free to share these designs for non-commercial purposes, provided appropriate credit 
 is given and no modifications are made.
 
-<img src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png" alt="CC BY-NC-ND 4.0" width="150"/>
+<img src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png" alt="CC BY-NC-ND 4.0" width="200"/>
+
 ---
+
 ## Contact
 
 **Konstantin Neuhaus**
