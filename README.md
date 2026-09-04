@@ -29,3 +29,7 @@ is given and no modifications are made.
 GitHub: [@KonstantinNeuhaus](https://github.com/KonstantinNeuhaus)
 
 For questions about the designs or the associated project, please open a GitHub issue.
+
+---
+## Acknowledgements
+The README files for this repository were created with the help of Claude (Anthropic).
